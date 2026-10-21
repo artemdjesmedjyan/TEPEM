@@ -1,12 +1,14 @@
-{
-"name": "valid customer",
-"email": "customer@practicesoftwaretesting.com",
-"password": "welcome01",
-"expectedResult": "success"
-},
-{
-"name": "invalid customer",
-"email": "customer@practicesoftwaretesting.com",
-"password": "12345678",
-"expectedResult": "failure"
-}
+[
+  {
+    "name": "valid customer",
+    "email": "customer2@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "expectedResult": "success"
+  },
+  {
+    "name": "wrong password",
+    "email": "customer2@practicesoftwaretesting.com",
+    "password": "not-my-password",
+    "expectedResult": "failure"
+  }
+]
